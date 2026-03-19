@@ -1,5 +1,6 @@
 import StatsCard from "./StatsCard";
 import SalesChart from "./SalesChart";
+import EggChart from "./EggChart";
 
 function Dashboard() {
   return (
@@ -13,6 +14,8 @@ function Dashboard() {
       </div>
 
       <SalesChart />
+      <EggChart />
+
     </div>
   );
 }
