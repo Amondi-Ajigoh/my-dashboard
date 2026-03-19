@@ -1,14 +1,6 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
-const data = [
-  { day: "Mon", eggs: 30 },
-  { day: "Tue", eggs: 25 },
-  { day: "Wed", eggs: 40 },
-  { day: "Thu", eggs: 35 },
-  { day: "Fri", eggs: 50 },
-];
-
-function EggChart() {
+function EggChart({ data }) {
   return (
     <div className="card p-3 mt-4">
       <h5>Egg Production</h5>
